@@ -13,4 +13,5 @@ def index():
     return 'Hello HBNB!'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port='5000')
+    app.run(host='192.168.0.100', port=5000)
+
